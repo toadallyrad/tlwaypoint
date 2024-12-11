@@ -7,12 +7,17 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
             background: url('https://raw.githubusercontent.com/toadallyrad/tladvisory/refs/heads/main/austin-ramsey-AhM0yBuW1_I-unsplash.jpg') no-repeat center center/cover;
+            background-attachment: fixed;
+            height: 200vh; /* Makes the page tall enough to scroll */
+        }
+        .content {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
             color: white;
             text-shadow: 0 0 10px black;
         }
@@ -27,10 +32,12 @@
     </style>
 </head>
 <body>
-    <h1>Welcome!</h1>
-    <p>Thank you for visiting. Feel free to reach out via email.</p>
+    <div class="content">
+        <h1>Welcome<br>to TL Advisory</h1>
+        <p>Thank you for visiting. Feel free to reach out via email.</p>
+    </div>
     <footer>
-        Photo by <a href="https://unsplash.com/@nickfancher" target="_blank" style="color: rgba(255, 255, 255, 0.7);">Nick Fancher</a> on <a href="https://unsplash.com/" target="_blank" style="color: rgba(255, 255, 255, 0.7);">Unsplash</a>
+        Photo by <a href="https://unsplash.com/@austinramsey" target="_blank" style="color: rgba(255, 255, 255, 0.7);">Austin Ramsey</a> on <a href="https://unsplash.com/" target="_blank" style="color: rgba(255, 255, 255, 0.7);">Unsplash</a>
     </footer>
 </body>
 </html>
