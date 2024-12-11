@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             background: url('https://raw.githubusercontent.com/toadallyrad/tladvisory/refs/heads/main/austin-ramsey-AhM0yBuW1_I-unsplash.jpg') no-repeat center center/cover;
-            background-attachment: fixed;
+            background-size: cover;
             height: 200vh; /* Makes the page tall enough to scroll */
         }
         .content {
@@ -22,22 +22,21 @@
             text-shadow: 0 0 10px black;
         }
         footer {
-            position: absolute;
-            bottom: 10px;
+            position: fixed;
+            bottom: 0;
             width: 100%;
             text-align: center;
             font-size: 12px;
             color: rgba(255, 255, 255, 0.7);
+            background-color: rgba(0, 0, 0, 0.5); /* Optional for better readability */
+            padding: 5px 0;
         }
     </style>
 </head>
 <body>
     <div class="content">
-        <h1>Welcome!<br></h1>
+        <h1>Welcome<br>to TL Advisory</h1>
         <p>Thank you for visiting. Feel free to reach out via email.</p>
     </div>
     <footer>
-        Photo by <a href="https://unsplash.com/@austinramsey" target="_blank" style="color: rgba(255, 255, 255, 0.7);">Austin Ramsey</a> on <a href="https://unsplash.com/" target="_blank" style="color: rgba(255, 255, 255, 0.7);">Unsplash</a>
-    </footer>
-</body>
-</html>
+        Photo by <a href="https://unsplash.com/@austinramsey" target="_blank" style="color: rgba(255,
